@@ -1,5 +1,5 @@
 '''This is a waste of time'''
-count = 0
+COUNT = 0
 CARDS_ON_TABLE = 0
 MAX_CARDS = 208
 print ("Hi")
