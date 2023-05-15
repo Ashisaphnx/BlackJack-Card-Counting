@@ -1,11 +1,10 @@
 '''This is a waste of time'''
-COUNT = 0
+count = 0
 CARDS_ON_TABLE = 0
 MAX_CARDS = 208
 print ("Hi")
 def ask_card():
     '''Will ask for the avalible cards on the table'''
-    count = COUNT
     card = input("What is your card: ")
     print (card)
     if card == "A":
