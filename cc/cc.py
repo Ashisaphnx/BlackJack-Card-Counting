@@ -33,3 +33,4 @@ def ask_card():
     true_count = COUNT / 4
     if COUNT >=4:
         print (true_count)
+ask_card()
