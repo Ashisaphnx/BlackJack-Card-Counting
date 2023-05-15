@@ -3,12 +3,11 @@ COUNT = 0
 CARDS_ON_TABLE = 0
 MAX_CARDS = 208
 print ("Hi")
-card = input("What is your card: ")
-print (card)
 def ask_card():
     '''Will ask for the avalible cards on the table'''
     count = COUNT
-    cards_on_table = CARDS_ON_TABLE
+    card = input("What is your card: ")
+    print (card)
     if card == "A":
         count = count +0
     elif card == "J":
@@ -41,10 +40,7 @@ def ask_card():
     true_count = count / 4
     if count >=4:
         print (true_count)
-    else :
-        print ("True Count makes odds too low")
-    cards_on_table = cards_on_table +1
 
 while CARDS_ON_TABLE <= MAX_CARDS:
     ask_card()
-    CARDS_ON_TABLE = cards_on_table 
+    CARDS_ON_TABLE = CARDS_ON_TABLE +1
