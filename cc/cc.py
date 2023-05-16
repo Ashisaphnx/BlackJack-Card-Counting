@@ -44,4 +44,4 @@ def a_c():
     while CARDS_ON_TABLE <= MAX_CARDS:
         ask_card()
         CARDS_ON_TABLE = CARDS_ON_TABLE +1
-
+a_c()
