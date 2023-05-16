@@ -1,10 +1,10 @@
 '''This is a waste of time'''
-MAX_CARDS = 208
 print ("Hi")
 def a_c():
     '''H'''
     count = 0
     cards_on_table = 0
+    max_cards = 208
     def ask_card():
         '''Will ask for the avalible cards on the table'''
         card = input("What is your card: ")
@@ -41,7 +41,7 @@ def a_c():
         true_count = count / 4
         if count >=4:
             print (true_count)
-    while cards_on_table <= MAX_CARDS:
+    while cards_on_table <= max_cards:
         ask_card()
         cards_on_table = cards_on_table +1
 a_c()
